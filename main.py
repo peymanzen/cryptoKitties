@@ -14,7 +14,7 @@ from matplotlib.gridspec import GridSpec
 # MongoClient
 logger = logging.getLogger("test")
 
-MONGO_URI = "mongodb+srv://zazen:Qq1234567890@cluster0.wziqc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"  # mongo url
+MONGO_URI = ""  # mongo url
 try:
     logger.info("Attempting to connect...")
     client = MongoClient(MONGO_URI)
